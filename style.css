@@ -61,12 +61,9 @@ header .compoIcone-campoPesquisa #pesquisa{
     border-bottom: 2px solid black;
 }
 /*campo de informações do Usuario*/
-#campoDeInformacoes{
-    color: black;
-    width: 28%;
-}
 #logoLogin #campoDeInformacoes{
     border: 1px solid black;
+    color: black;
     position: absolute;
     height: 80%;
     top: 10%;
@@ -74,6 +71,7 @@ header .compoIcone-campoPesquisa #pesquisa{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    display: none;
 }
 #campoDeInformacoes .campoDoUsuario{
     border-bottom: 1px solid grey;
@@ -90,7 +88,7 @@ header .compoIcone-campoPesquisa #pesquisa{
     font-size: 20px;
     height: 70%;
     width: 60%;
-    margin-left: 5px;
+    margin-left: 15px;
 }
 #infoUsuario > h3{
     color: black;
