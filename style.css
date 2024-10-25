@@ -56,10 +56,102 @@ header .compoIcone-campoPesquisa #pesquisa{
     font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;
 }
-#inicio:hover, #minhaRede:hover, #vagas:hover, #mensagens:hover, #notificacoes:hover, #logoLogin:hover{
+#inicio:hover, #minhaRede:hover, #vagas:hover, #mensagens:hover, #notificacoes:hover{
     color: black;
     border-bottom: 2px solid black;
 }
+/*campo de informações do Usuario*/
+#campoDeInformacoes{
+    color: black;
+    width: 28%;
+}
+#logoLogin #campoDeInformacoes{
+    border: 1px solid black;
+    position: absolute;
+    height: 80%;
+    top: 10%;
+    right: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#campoDeInformacoes .campoDoUsuario{
+    border-bottom: 1px solid grey;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+}
+.campoDoUsuario #logoLogin{
+    height: 70%;
+    width: 90%;
+    font-size: 90px;
+}
+.campoDoUsuario #infoUsuario{
+    font-size: 20px;
+    height: 70%;
+    width: 60%;
+    margin-left: 5px;
+}
+#infoUsuario > h3{
+    color: black;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+.campoDoUsuario > button{
+    position: absolute;
+    top: 19%;
+    left: 5%;
+    width: 90%;
+    height: 25px;
+    border-radius: 7px;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+/*campo de informações*/
+#campoDeInformacoes .conta{
+    border-bottom: 1px solid grey;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+.conta > h5{
+    font-size: 23px;
+}
+.conta p{
+    font-size: 15px;
+    width: 60%;
+    color: rgb(80, 80, 80);
+}
+/*campo de gerenciamento*/
+#campoDeInformacoes .gerenciar{
+    border-bottom: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    height: 25%;
+}
+.gerenciar > h5{
+    font-size: 23px;
+}
+.gerenciar p{
+    font-size: 15px;
+    width: 60%;
+    color: rgb(80, 80, 80);
+}
+/*campo de sair*/
+#campoDeInformacoes .sair{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    color: rgb(80, 80, 80);
+    font-size: 20px;
+}
+
 /*Terceira Parte*/
 #campoPremium{
     width: 15%;
