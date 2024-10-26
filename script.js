@@ -1,4 +1,7 @@
-document.querySelector('#log').addEventListener('click', () => {
-    let perfil = document.querySelector('#campoDeInformacoes')
-    perfil.style.display = "block";
+document.querySelector('#logoLogin').addEventListener('click', () => {
+    if(campoDeInformacoes.style.display === "block"){
+        campoDeInformacoes.style.display = "none"
+    } else{
+        campoDeInformacoes.style.display = "block"
+    }
 })
