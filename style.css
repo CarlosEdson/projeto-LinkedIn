@@ -4,7 +4,7 @@
     padding: 0px;
 }
 body{
-    background-color: rgba(128, 128, 128, 0.103);
+    background-color: rgba(128, 128, 128, 0.185);
 }
 /*primeira parte*/
 header{
@@ -63,6 +63,7 @@ header .compoIcone-campoPesquisa #pesquisa{
 /*campo de informações do Usuario*/
 #logoLogin #campoDeInformacoes{
     border: 1px solid black;
+    background-color: white;
     color: black;
     position: absolute;
     height: 80%;
@@ -79,7 +80,7 @@ header .compoIcone-campoPesquisa #pesquisa{
     display: flex;
     flex-direction: row;
 }
-.campoDoUsuario #logoLogin{
+.campoDoUsuario #logoLog{
     height: 70%;
     width: 90%;
     font-size: 90px;
@@ -109,10 +110,10 @@ header .compoIcone-campoPesquisa #pesquisa{
 /*campo de informações*/
 #campoDeInformacoes .conta{
     border-bottom: 1px solid grey;
-    height: 35%;
+    height: 40%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 10px;
 }
@@ -124,6 +125,9 @@ header .compoIcone-campoPesquisa #pesquisa{
     width: 60%;
     color: rgb(80, 80, 80);
 }
+#campoDeInformacoes a{
+    text-decoration: none;
+}
 /*campo de gerenciamento*/
 #campoDeInformacoes .gerenciar{
     border-bottom: 1px solid grey;
@@ -132,7 +136,7 @@ header .compoIcone-campoPesquisa #pesquisa{
     justify-content: space-around;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 10px;
-    height: 25%;
+    height: 28%;
 }
 .gerenciar > h5{
     font-size: 23px;
@@ -142,8 +146,9 @@ header .compoIcone-campoPesquisa #pesquisa{
     width: 60%;
     color: rgb(80, 80, 80);
 }
+
 /*campo de sair*/
-#campoDeInformacoes .sair{
+#campoDeInformacoes .sair a{
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 10px;
     color: rgb(80, 80, 80);
@@ -160,13 +165,13 @@ header .compoIcone-campoPesquisa #pesquisa{
     justify-content: space-between;
 }
 .negocios{
-    width: 30%;
+    width: 33%;
     height: 100%;
-    font-size: 30px;
+    font-size: 33px;
     text-align: center;
 }
 .negocios > p{
-    font-size: 10px;
+    font-size: 12px;
 }
 #campoPremium a{
     font-size: 12px;
