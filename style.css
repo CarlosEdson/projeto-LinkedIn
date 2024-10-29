@@ -1,182 +1,185 @@
 @charset "UTF-8";
-*{
-    margin: 0px;
-    padding: 0px;
-}
-body{
-    background-color: rgba(128, 128, 128, 0.185);
-}
-/*primeira parte*/
-header{
-    background-color: white;
-    border: 1px solid;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    height: 55px;
-}
-header .compoIcone-campoPesquisa{
-    height: 100%;
-    width: 25%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-header .compoIcone-campoPesquisa #logo{
-    font-size: 40px;
-    font-weight: 550;
-    color: rgba(0, 0, 255, 0.678);
-}
-header .compoIcone-campoPesquisa #pesquisa{
-    height: 50%;
-    width: 75%;
-    margin-left: 3%;
-}
-/*segunda parte*/
-.campoDeDirecionamento{
-    height: 100%;
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    border-right: 1px solid rgba(0, 0, 0, 0.253);
-}
-.campoDeDirecionamento #inicio, #minhaRede, #vagas, #mensagens, #notificacoes, #logoLogin{
-    font-size: 25px;
-    width: 20%;
-    color: rgb(104, 103, 103);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-#inicio > p, #minhaRede > p, #vagas > p, #mensagens > p, #notificacoes > p, #logoLogin > p{
-    font-size: 15px;
-    font-weight: normal;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#inicio:hover, #minhaRede:hover, #vagas:hover, #mensagens:hover, #notificacoes:hover{
-    color: black;
-    border-bottom: 2px solid black;
-}
-/*campo de informações do Usuario*/
-#logoLogin #campoDeInformacoes{
-    border: 1px solid black;
-    background-color: white;
-    color: black;
-    position: absolute;
-    height: 80%;
-    top: 10%;
-    right: 20%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    display: none;
-}
-#campoDeInformacoes .campoDoUsuario{
-    border-bottom: 1px solid grey;
-    height: 25%;
-    display: flex;
-    flex-direction: row;
-}
-.campoDoUsuario #logoLog{
-    height: 70%;
-    width: 90%;
-    font-size: 90px;
-}
-.campoDoUsuario #infoUsuario{
-    font-size: 20px;
-    height: 70%;
-    width: 60%;
-    margin-left: 15px;
-}
-#infoUsuario > h3{
-    color: black;
-    margin-bottom: 5px;
-    font-size: 30px;
-}
-.campoDoUsuario > button{
-    position: absolute;
-    top: 19%;
-    left: 5%;
-    width: 90%;
-    height: 25px;
-    border-radius: 7px;
-    color: blue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-}
-/*campo de informações*/
-#campoDeInformacoes .conta{
-    border-bottom: 1px solid grey;
-    height: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 10px;
-}
-.conta > h5{
-    font-size: 23px;
-}
-.conta p{
-    font-size: 15px;
-    width: 60%;
-    color: rgb(80, 80, 80);
-}
-#campoDeInformacoes a{
-    text-decoration: none;
-}
-/*campo de gerenciamento*/
-#campoDeInformacoes .gerenciar{
-    border-bottom: 1px solid grey;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 10px;
-    height: 28%;
-}
-.gerenciar > h5{
-    font-size: 23px;
-}
-.gerenciar p{
-    font-size: 15px;
-    width: 60%;
-    color: rgb(80, 80, 80);
-}
-
-/*campo de sair*/
-#campoDeInformacoes .sair a{
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 10px;
-    color: rgb(80, 80, 80);
-    font-size: 20px;
-}
-
-/*Terceira Parte*/
-#campoPremium{
-    width: 15%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-.negocios{
-    width: 33%;
-    height: 100%;
-    font-size: 33px;
-    text-align: center;
-}
-.negocios > p{
-    font-size: 12px;
-}
-#campoPremium a{
-    font-size: 12px;
-    width: 55%;
-    height: 100%;
-    text-align: center;
-    color: darkorange;
+@media screen and (min-width: 992px) {
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        background-color: rgba(128, 128, 128, 0.185);
+    }
+    /*primeira parte*/
+    header{
+        background-color: white;
+        border: 1px solid;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 55px;
+    }
+    header .compoIcone-campoPesquisa{
+        height: 100%;
+        width: 25%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    header .compoIcone-campoPesquisa #logo{
+        font-size: 40px;
+        font-weight: 550;
+        color: rgba(0, 0, 255, 0.678);
+    }
+    header .compoIcone-campoPesquisa #pesquisa{
+        height: 50%;
+        width: 75%;
+        margin-left: 3%;
+    }
+    /*segunda parte*/
+    .campoDeDirecionamento{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        border-right: 1px solid rgba(0, 0, 0, 0.253);
+    }
+    .campoDeDirecionamento #inicio, #minhaRede, #vagas, #mensagens, #notificacoes, #logoLogin{
+        font-size: 25px;
+        width: 20%;
+        color: rgb(104, 103, 103);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #inicio > p, #minhaRede > p, #vagas > p, #mensagens > p, #notificacoes > p, #logoLogin > p{
+        font-size: 15px;
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #inicio:hover, #minhaRede:hover, #vagas:hover, #mensagens:hover, #notificacoes:hover{
+        color: black;
+        border-bottom: 2px solid black;
+    }
+    /*campo de informações do Usuario*/
+    #logoLogin #campoDeInformacoes{
+        border: 1px solid black;
+        background-color: white;
+        color: black;
+        position: absolute;
+        height: 80%;
+        top: 10%;
+        right: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        display: none;
+    }
+    #campoDeInformacoes .campoDoUsuario{
+        border-bottom: 1px solid grey;
+        height: 25%;
+        display: flex;
+        flex-direction: row;
+    }
+    .campoDoUsuario #logoLog{
+        height: 70%;
+        width: 90%;
+        font-size: 90px;
+    }
+    .campoDoUsuario #infoUsuario{
+        font-size: 20px;
+        height: 70%;
+        width: 60%;
+        margin-left: 15px;
+    }
+    #infoUsuario > h3{
+        color: black;
+        margin-bottom: 5px;
+        font-size: 30px;
+    }
+    .campoDoUsuario > button{
+        position: absolute;
+        top: 19%;
+        left: 5%;
+        width: 90%;
+        height: 25px;
+        border-radius: 7px;
+        color: blue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+    }
+    /*campo de informações*/
+    #campoDeInformacoes .conta{
+        border-bottom: 1px solid grey;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 10px;
+    }
+    .conta > h5{
+        font-size: 23px;
+    }
+    .conta p{
+        font-size: 15px;
+        width: 60%;
+        color: rgb(80, 80, 80);
+    }
+    #campoDeInformacoes a{
+        text-decoration: none;
+    }
+    /*campo de gerenciamento*/
+    #campoDeInformacoes .gerenciar{
+        border-bottom: 1px solid grey;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 10px;
+        height: 28%;
+    }
+    .gerenciar > h5{
+        font-size: 23px;
+    }
+    .gerenciar p{
+        font-size: 15px;
+        width: 60%;
+        color: rgb(80, 80, 80);
+    }
+    
+    /*campo de sair*/
+    #campoDeInformacoes .sair a{
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 10px;
+        color: rgb(80, 80, 80);
+        font-size: 20px;
+    }
+    
+    /*Terceira Parte*/
+    #campoPremium{
+        width: 15%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .negocios{
+        width: 33%;
+        height: 100%;
+        font-size: 33px;
+        text-align: center;
+    }
+    .negocios > p{
+        font-size: 12px;
+    }
+    #campoPremium a{
+        font-size: 12px;
+        width: 55%;
+        height: 100%;
+        text-align: center;
+        color: darkorange;
+    }
 }

@@ -1,0 +1,22 @@
+@charset "UTF-08";
+
+@media screen and (max-width: 992px){
+    header{
+        display: none;
+    }
+    footer{
+        position: absolute;
+        top: 93%;
+        left: 0;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 7%;
+        width: 100%;
+        background-color: rgba(128, 128, 128, 0.438);
+    }
+    footer > div > i{
+        font-size: 250%;
+    }
+}
