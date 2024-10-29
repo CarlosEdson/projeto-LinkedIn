@@ -8,10 +8,6 @@
         margin: 0;
         padding: 0;
     }
-    main{
-        border: 1px solid red;
-        height: 570px;
-    }
     footer{
         position: absolute;
         top: 92.5%;
@@ -19,15 +15,24 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        height: 7%;
+        height: 9%;
         width: 100%;
-        background-color: rgba(128, 128, 128, 0.438);
+        background-color: rgb(39, 39, 39);
     }
     footer a{
         text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     footer > div > a >i{
-        font-size: 250%;
-        color: black;
+        font-size: 200%;
+        color: rgba(255, 255, 255, 0.637);
+    }
+    footer p{
+        color: rgba(255, 255, 255, 0.637);
+    }
+    footer a:active{
+        border-top: 3px solid rgba(255, 255, 255, 0.637);
     }
 }
