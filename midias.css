@@ -4,10 +4,17 @@
     header{
         display: none;
     }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    main{
+        border: 1px solid red;
+        height: 570px;
+    }
     footer{
         position: absolute;
-        top: 93%;
-        left: 0;
+        top: 92.5%;
         border: 1px solid black;
         display: flex;
         align-items: center;
@@ -16,7 +23,11 @@
         width: 100%;
         background-color: rgba(128, 128, 128, 0.438);
     }
-    footer > div > i{
+    footer a{
+        text-decoration: none;
+    }
+    footer > div > a >i{
         font-size: 250%;
+        color: black;
     }
 }

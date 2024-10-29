@@ -182,4 +182,8 @@
         text-align: center;
         color: darkorange;
     }
+
+    footer{
+        display: none;
+    }
 }
